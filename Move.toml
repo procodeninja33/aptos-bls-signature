@@ -1,0 +1,12 @@
+[package]
+name = "storage_bls"
+version = '0.0.1'
+
+[dependencies]
+AptosFramework = { git = 'https://github.com/aptos-labs/aptos-core.git', subdir = 'aptos-move/framework/aptos-framework', rev = 'aptos-framework-v1.10.0' }
+
+[addresses]
+storage_bls = "_"
+
+[dev-addresses]
+storage_bls = "0xCEFEF"
